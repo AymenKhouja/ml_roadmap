@@ -13,7 +13,7 @@ This roadmap delivers a complete MKDocs-based study roadmap site for ML engineer
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Project Skeleton and Configuration** - MKDocs site with Material theme, extensions, navigation structure, and all infrastructure features enabled
-- [ ] **Phase 2: Content Template System** - Teach+link content format established, validated with a reference section, and all content formatting requirements met
+- [x] **Phase 2: Content Template System** - Teach+link content format established, validated with a reference section, and all content formatting requirements met
 - [ ] **Phase 3: Progress Tracking** - localStorage-based interactive checkboxes and progress bars working across all pages with instant-loading compatibility
 - [ ] **Phase 4: Math Foundations Content** - Complete math foundations section covering linear algebra, calculus, and probability/statistics for ML
 - [ ] **Phase 5: Python ML Ecosystem Content** - Complete Python ML toolkit section covering NumPy, Pandas, visualization, and Scikit-learn
@@ -53,8 +53,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01-PLAN.md -- Custom admonition CSS and Supervised Learning reference page
-- [ ] 02-02-PLAN.md -- Content authoring checklist
+- [x] 02-01-PLAN.md -- Custom admonition CSS and Supervised Learning reference page
+- [x] 02-02-PLAN.md -- Content authoring checklist
 
 ### Phase 3: Progress Tracking
 **Goal**: A learner can check off completed items on any page, see their progress persist across browser sessions, and view per-section progress bars -- all without creating an account
@@ -80,11 +80,12 @@ Plans:
   2. Calculus section covers derivatives, gradients, chain rule, and optimization basics with concrete ML examples (e.g., gradient descent walkthrough)
   3. Probability section covers distributions, Bayes theorem, hypothesis testing, and statistical thinking with ML-relevant framing
   4. Every page in the section follows the validated content template: learning outcomes, teach+link format, action items, free-first resources, time estimate, difficulty indicator
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 04-01: TBD
-- [ ] 04-02: TBD
+- [ ] 04-01-PLAN.md -- Linear Algebra content page and Math Foundations index upgrade
+- [ ] 04-02-PLAN.md -- Calculus content page
+- [ ] 04-03-PLAN.md -- Probability & Statistics content page
 
 ### Phase 5: Python ML Ecosystem Content
 **Goal**: A learner can work through the Python ML ecosystem section and become proficient with the core Python data science and ML libraries needed before tackling ML algorithms
@@ -173,9 +174,9 @@ Note: Phases 4-8 (content phases) can be executed in parallel once Phases 2 and 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Project Skeleton and Configuration | 3/3 | Complete | 2026-03-08 |
-| 2. Content Template System | 0/2 | Not started | - |
+| 2. Content Template System | 2/2 | Complete | 2026-03-08 |
 | 3. Progress Tracking | 1/2 | In progress | - |
-| 4. Math Foundations Content | 0/0 | Not started | - |
+| 4. Math Foundations Content | 0/3 | Not started | - |
 | 5. Python ML Ecosystem Content | 0/0 | Not started | - |
 | 6. Classical ML Content | 0/0 | Not started | - |
 | 7. Deep Learning Content | 0/0 | Not started | - |
