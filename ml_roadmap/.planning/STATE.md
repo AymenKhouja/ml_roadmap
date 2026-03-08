@@ -18,16 +18,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-08)
 
 **Core value:** Eliminate decision paralysis -- one curated, well-structured path from ML foundations to job-ready, ship-capable, and research-literate
-**Current focus:** Phase 6: Classical ML Content -- COMPLETE
+**Current focus:** Phase 7: Deep Learning Content -- COMPLETE
 
 ## Current Position
 
-Phase: 6 of 9 (Classical ML Content) -- COMPLETE
+Phase: 7 of 9 (Deep Learning Content) -- COMPLETE
 Plan: 3 of 3 in current phase
-Status: Phase 6 complete. All 4 Classical ML content pages written + section index upgraded.
-Last activity: 2026-03-08 -- Completed all Classical ML content (Supervised updates, Unsupervised, Model Evaluation, Feature Engineering)
+Status: Phase 7 complete. All 5 deep learning content pages written + section index upgraded.
+Last activity: 2026-03-08 -- Completed all Deep Learning content (Neural Network Fundamentals, CNNs, RNNs, Transformers, Frameworks + index)
 
-Progress: [███████░░░] 67%
+Progress: [████████░░] 78%
 
 ## Performance Metrics
 
@@ -58,6 +58,9 @@ Progress: [███████░░░] 67%
 | Phase 06 P01 | 8min | 2 tasks | 2 files |
 | Phase 06 P02 | 6min | 1 tasks | 1 files |
 | Phase 06 P03 | 5min | 2 tasks | 2 files |
+| Phase 07 P01 | 8min | 2 tasks | 2 files |
+| Phase 07 P02 | 8min | 2 tasks | 2 files |
+| Phase 07 P03 | 6min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -90,6 +93,13 @@ Recent decisions affecting current work:
 - [Phase 06-02]: Model evaluation page is self-contained -- teaches concepts fully but links to supervised-learning.md for algorithm selection
 - [Phase 06-03]: Feature engineering page explicitly warns about data leakage in pipelines section with warning admonition
 - [Phase 06-03]: Core ML index totals ~28-32 hours across all 4 pages
+- [Phase 07-01]: Minimal PyTorch code snippets (not content tabs) in fundamentals -- tabs reserved for frameworks.md
+- [Phase 07-01]: ResNet architecture described using text-based layer format per project convention (no images)
+- [Phase 07-02]: Transformers page has 6 sub-topics (not 5) as the most important page in the section
+- [Phase 07-02]: LLM landscape framed as "rapidly evolving" -- no model benchmarks or capability comparisons
+- [Phase 07-03]: Content tabs used only in end-to-end training section; PyTorch/TF shown separately first
+- [Phase 07-03]: PyTorch subtly positioned as more versatile choice for newcomers per research
+- [Phase 07-03]: Deep learning index totals ~34-44 hours across all 5 pages
 
 ### Pending Todos
 
@@ -105,5 +115,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-08
-Stopped at: Completed Phase 6 Classical ML content (06-01, 06-02, 06-03). All content pages written + index upgraded.
+Stopped at: Completed Phase 7 Deep Learning content (07-01, 07-02, 07-03). All 5 content pages + index written.
 Resume file: None

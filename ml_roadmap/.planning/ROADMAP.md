@@ -18,7 +18,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [ ] **Phase 4: Math Foundations Content** - Complete math foundations section covering linear algebra, calculus, and probability/statistics for ML
 - [ ] **Phase 5: Python ML Ecosystem Content** - Complete Python ML toolkit section covering NumPy, Pandas, visualization, and Scikit-learn
 - [x] **Phase 6: Classical ML Content** - Complete classical ML section covering supervised, unsupervised, evaluation, and feature engineering
-- [ ] **Phase 7: Deep Learning Content** - Complete deep learning section covering neural nets, CNNs, RNNs, Transformers, and frameworks
+- [x] **Phase 7: Deep Learning Content** - Complete deep learning section covering neural nets, CNNs, RNNs, Transformers, and frameworks (2026-03-08)
 - [ ] **Phase 8: MLOps and Research Skills Content** - Complete MLOps section and research skills section covering production ML and paper literacy
 - [ ] **Phase 9: Landing Page, Deployment, and Polish** - Landing page, visual roadmap overview, navigation polish, and live deployment to GitHub Pages
 
@@ -130,11 +130,12 @@ Plans:
   3. RNNs section covers LSTMs, GRUs, and sequence-to-sequence patterns with clear explanation of the vanishing gradient motivation
   4. Transformers section covers self-attention, BERT, GPT architecture, and modern LLMs -- positioned as the current state of the art with historical context
   5. Frameworks section covers practical PyTorch and/or TensorFlow usage with content tabs showing both where applicable
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 07-01: TBD
-- [ ] 07-02: TBD
+- [x] 07-01-PLAN.md -- Neural Network Fundamentals and CNNs content pages
+- [x] 07-02-PLAN.md -- RNNs & Sequence Models and Transformers & Attention content pages
+- [x] 07-03-PLAN.md -- Frameworks content page (with content tabs) and Deep Learning index upgrade
 
 ### Phase 8: MLOps and Research Skills Content
 **Goal**: A learner can work through production ML skills and research literacy sections, completing the transition from "understands ML" to "can ship and stay current"
@@ -181,6 +182,6 @@ Note: Phases 4-8 (content phases) can be executed in parallel once Phases 2 and 
 | 4. Math Foundations Content | 3/3 | Complete | 2026-03-08 |
 | 5. Python ML Ecosystem Content | 0/3 | Not started | - |
 | 6. Classical ML Content | 3/3 | Complete | 2026-03-08 |
-| 7. Deep Learning Content | 0/0 | Not started | - |
+| 7. Deep Learning Content | 3/3 | Complete | 2026-03-08 |
 | 8. MLOps and Research Skills Content | 0/0 | Not started | - |
 | 9. Landing Page, Deployment, and Polish | 0/0 | Not started | - |
