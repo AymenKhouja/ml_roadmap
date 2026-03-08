@@ -68,7 +68,7 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 03-01-PLAN.md -- Checkbox persistence JS, CSS styles, mkdocs.yml config, and supervised-learning.md task list conversion
+- [x] 03-01-PLAN.md -- Checkbox persistence JS, CSS styles, mkdocs.yml config, and supervised-learning.md task list conversion
 - [ ] 03-02-PLAN.md -- Progress bar rendering on index pages and localStorage info admonitions
 
 ### Phase 4: Math Foundations Content
@@ -174,7 +174,7 @@ Note: Phases 4-8 (content phases) can be executed in parallel once Phases 2 and 
 |-------|----------------|--------|-----------|
 | 1. Project Skeleton and Configuration | 3/3 | Complete | 2026-03-08 |
 | 2. Content Template System | 0/2 | Not started | - |
-| 3. Progress Tracking | 0/2 | Not started | - |
+| 3. Progress Tracking | 1/2 | In progress | - |
 | 4. Math Foundations Content | 0/0 | Not started | - |
 | 5. Python ML Ecosystem Content | 0/0 | Not started | - |
 | 6. Classical ML Content | 0/0 | Not started | - |
