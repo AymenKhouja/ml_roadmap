@@ -97,11 +97,12 @@ Plans:
   3. Visualization section covers Matplotlib and Seaborn with ML-specific plot types (confusion matrices, learning curves, feature distributions)
   4. Scikit-learn section covers the estimator API pattern, preprocessing pipelines, model selection, and evaluation with end-to-end workflow examples
   5. Every page follows the content template and all code blocks have syntax highlighting, line numbers, and copy buttons
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 05-01: TBD
-- [ ] 05-02: TBD
+- [ ] 05-01-PLAN.md -- NumPy content page and Python ML section index upgrade
+- [ ] 05-02-PLAN.md -- Pandas and Visualization content pages
+- [ ] 05-03-PLAN.md -- Scikit-learn content page
 
 ### Phase 6: Classical ML Content
 **Goal**: A learner can work through the complete classical ML section and understand core ML algorithms, evaluation methodology, and practical feature engineering
@@ -177,7 +178,7 @@ Note: Phases 4-8 (content phases) can be executed in parallel once Phases 2 and 
 | 2. Content Template System | 2/2 | Complete | 2026-03-08 |
 | 3. Progress Tracking | 2/2 | Complete | 2026-03-08 |
 | 4. Math Foundations Content | 3/3 | Complete | 2026-03-08 |
-| 5. Python ML Ecosystem Content | 0/0 | Not started | - |
+| 5. Python ML Ecosystem Content | 0/3 | Not started | - |
 | 6. Classical ML Content | 0/0 | Not started | - |
 | 7. Deep Learning Content | 0/0 | Not started | - |
 | 8. MLOps and Research Skills Content | 0/0 | Not started | - |
