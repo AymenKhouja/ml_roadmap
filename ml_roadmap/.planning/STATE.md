@@ -18,16 +18,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-08)
 
 **Core value:** Eliminate decision paralysis -- one curated, well-structured path from ML foundations to job-ready, ship-capable, and research-literate
-**Current focus:** Phase 5: Python ML Ecosystem Content
+**Current focus:** Phase 5: Python ML Ecosystem Content -- COMPLETE
 
 ## Current Position
 
-Phase: 4 of 9 (Math Foundations Content) -- COMPLETE
+Phase: 5 of 9 (Python ML Ecosystem Content) -- COMPLETE
 Plan: 3 of 3 in current phase
-Status: Phase 4 complete. All 3 math content pages written and committed.
-Last activity: 2026-03-08 -- Completed all math foundations content (linear algebra, calculus, probability)
+Status: Phase 5 complete. All 4 Python ML content pages written + section index upgraded.
+Last activity: 2026-03-08 -- Completed all Python ML ecosystem content (NumPy, Pandas, Visualization, Scikit-learn)
 
-Progress: [████░░░░░░] 44%
+Progress: [██████░░░░] 56%
 
 ## Performance Metrics
 
@@ -78,6 +78,10 @@ Recent decisions affecting current work:
 - [Phase 02-02]: Checklist placed in .planning/ (internal only); 33 items across 6 sections
 - [Phase 03-01]: Single JSON 'progress' localStorage key; ES5 syntax for browser compat; page key from last two URL segments
 - [Phase 03-01]: ~~localStorage schema design~~ RESOLVED -- using single JSON object as research recommended
+- [Phase 05-01]: NumPy "Why This Path" placed in Arrays sub-topic; used emoji prefixes matching established pattern
+- [Phase 05-02]: Visualization page describes plots in text (no embedded images) per research pitfall 6; links to galleries
+- [Phase 05-02]: "Why This Path" in Pandas cleaning sub-topic (60-80% practitioner time) and Visualization Seaborn sub-topic (Andrew Ng "look at your data")
+- [Phase 05-03]: Scikit-learn page teaches API patterns only, not algorithm theory (reserved for Phase 6); end-to-end 7-step workflow
 
 ### Pending Todos
 
@@ -93,5 +97,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-08
-Stopped at: Completed Phase 4 math foundations content (04-01, 04-02, 04-03). All content pages written.
+Stopped at: Completed Phase 5 Python ML ecosystem content (05-01, 05-02, 05-03). All content pages written + index upgraded.
 Resume file: None
