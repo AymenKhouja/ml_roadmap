@@ -32,9 +32,9 @@ The supervised learning workflow follows a consistent pattern: collect labeled d
     The word "supervised" comes from the idea that labeled data acts like a teacher supervising the learning process. The model makes a prediction, compares it to the known answer, and adjusts. This is fundamentally different from unsupervised learning, where there are no labels and the algorithm must find structure on its own.
 
 !!! action "What to Do"
-    1. 🎥 Watch Andrew Ng's "What is Machine Learning?" lecture (10 min) for the big picture of supervised vs unsupervised learning
-    2. 📖 Read the scikit-learn introduction to supervised learning for a practical overview
-    3. 💻 Load the Iris dataset in scikit-learn (`from sklearn.datasets import load_iris`) and explore its structure -- features, labels, and shapes
+    - [ ] 🎥 Watch Andrew Ng's "What is Machine Learning?" lecture (10 min) for the big picture of supervised vs unsupervised learning
+    - [ ] 📖 Read the scikit-learn introduction to supervised learning for a practical overview
+    - [ ] 💻 Load the Iris dataset in scikit-learn (`from sklearn.datasets import load_iris`) and explore its structure -- features, labels, and shapes
 
 **Resources:**
 
@@ -61,9 +61,9 @@ The training process finds the weights that minimize the **mean squared error (M
     "Linear" in linear regression refers to the model being linear in its **parameters** (weights), not in its features. You can add polynomial features like \(x^2\) or \(x_1 \cdot x_2\) and still use linear regression -- the model remains a linear combination of (now non-linear) features. This makes linear regression far more flexible than its name suggests.
 
 !!! action "What to Do"
-    1. 🎥 Watch StatQuest's "Linear Regression" (11 min) for visual intuition on least squares and R-squared
-    2. 📘 Read ISLR Chapter 3.1-3.2 for the statistical foundations of simple and multiple regression
-    3. 💻 Train a `LinearRegression` on the California Housing dataset using scikit-learn, evaluate with R-squared, and inspect the learned coefficients
+    - [ ] 🎥 Watch StatQuest's "Linear Regression" (11 min) for visual intuition on least squares and R-squared
+    - [ ] 📘 Read ISLR Chapter 3.1-3.2 for the statistical foundations of simple and multiple regression
+    - [ ] 💻 Train a `LinearRegression` on the California Housing dataset using scikit-learn, evaluate with R-squared, and inspect the learned coefficients
 
 **Resources:**
 
@@ -93,9 +93,9 @@ Training uses **log loss** (cross-entropy) instead of MSE, which penalizes confi
     The name "logistic regression" confuses almost everyone. It is called "regression" because it regresses on the log-odds (logarithm of the odds ratio), which is a continuous value. But in practice, you use it for classification. When you see "logistic regression" in a job posting or paper, think "classification."
 
 !!! action "What to Do"
-    1. 🎥 Watch StatQuest's "Logistic Regression" (15 min) for the intuition behind the sigmoid and log-odds
-    2. 📖 Read ISLR Chapter 4.1-4.3 for the statistical foundations of logistic regression
-    3. 💻 Train a `LogisticRegression` on a binary classification dataset (e.g., Breast Cancer Wisconsin), plot the decision boundary, and examine the confusion matrix
+    - [ ] 🎥 Watch StatQuest's "Logistic Regression" (15 min) for the intuition behind the sigmoid and log-odds
+    - [ ] 📖 Read ISLR Chapter 4.1-4.3 for the statistical foundations of logistic regression
+    - [ ] 💻 Train a `LogisticRegression` on a binary classification dataset (e.g., Breast Cancer Wisconsin), plot the decision boundary, and examine the confusion matrix
 
 **Resources:**
 
@@ -120,9 +120,9 @@ Decision trees are easy to interpret -- you can visualize the entire decision lo
     Decision trees are the foundation for the most powerful tabular ML methods (Random Forests, XGBoost, LightGBM). Understanding how a single tree works -- and *why* it overfits -- is essential for understanding why ensembles solve that problem. If you only learn one thing here, learn why deep trees memorize and shallow trees generalize.
 
 !!! action "What to Do"
-    1. 🎥 Watch StatQuest's "Decision Trees" (18 min) for visual intuition on splits and Gini impurity
-    2. 📘 Read ISLR Chapter 8.1 for the mathematical framework of tree-based methods
-    3. 💻 Train a `DecisionTreeClassifier` on the Iris dataset, visualize it with `sklearn.tree.plot_tree()`, and experiment with `max_depth` to see how depth affects overfitting
+    - [ ] 🎥 Watch StatQuest's "Decision Trees" (18 min) for visual intuition on splits and Gini impurity
+    - [ ] 📘 Read ISLR Chapter 8.1 for the mathematical framework of tree-based methods
+    - [ ] 💻 Train a `DecisionTreeClassifier` on the Iris dataset, visualize it with `sklearn.tree.plot_tree()`, and experiment with `max_depth` to see how depth affects overfitting
 
 **Resources:**
 
@@ -151,9 +151,9 @@ Ensemble methods combine multiple models to produce better predictions than any 
     The power of ensembles comes from **variance reduction**. A single deep tree has low bias but high variance (it memorizes training data). By averaging many such trees (each trained on slightly different data), the variance drops dramatically while bias stays low. This is the bias-variance tradeoff in action -- ensembles solve the overfitting problem without sacrificing model complexity.
 
 !!! action "What to Do"
-    1. 🎥 Watch StatQuest's "Random Forests" (10 min) and "XGBoost" series (4 parts, ~40 min total) for visual intuition on bagging and boosting
-    2. 📘 Read ISLR Chapter 8.2 for the theory behind bagging, random forests, and boosting
-    3. 💻 Train a `RandomForestClassifier` on the Iris dataset, compare accuracy with a single `DecisionTreeClassifier`, then try `XGBClassifier` from the xgboost library
+    - [ ] 🎥 Watch StatQuest's "Random Forests" (10 min) and "XGBoost" series (4 parts, ~40 min total) for visual intuition on bagging and boosting
+    - [ ] 📘 Read ISLR Chapter 8.2 for the theory behind bagging, random forests, and boosting
+    - [ ] 💻 Train a `RandomForestClassifier` on the Iris dataset, compare accuracy with a single `DecisionTreeClassifier`, then try `XGBClassifier` from the xgboost library
 
 **Resources:**
 
@@ -179,9 +179,9 @@ For non-linearly separable data, SVMs use the **kernel trick** -- a mathematical
     SVMs were the dominant ML method from the late 1990s through the early 2010s. They still have genuine advantages: they work well on small datasets with high-dimensional features (text classification, genomics) and have strong theoretical guarantees. However, for most tabular data problems with moderate-to-large datasets, tree ensembles are faster, easier to tune, and equally accurate. Know SVMs for interviews and for the specific cases where they shine.
 
 !!! action "What to Do"
-    1. 🎥 Watch StatQuest's "Support Vector Machines" (20 min) for the geometric intuition of margins and kernels
-    2. 📖 Read the scikit-learn SVM guide for practical usage patterns and kernel choices
-    3. 💻 Train an `SVC` on a 2D dataset, visualize the decision boundary and support vectors, then experiment with different kernels (linear, RBF, polynomial)
+    - [ ] 🎥 Watch StatQuest's "Support Vector Machines" (20 min) for the geometric intuition of margins and kernels
+    - [ ] 📖 Read the scikit-learn SVM guide for practical usage patterns and kernel choices
+    - [ ] 💻 Train an `SVC` on a 2D dataset, visualize the decision boundary and support vectors, then experiment with different kernels (linear, RBF, polynomial)
 
 **Resources:**
 
@@ -210,9 +210,9 @@ Knowing individual algorithms is necessary but not sufficient -- you need a fram
     The "No Free Lunch" theorem states that no single algorithm is best for every problem. In practice, this means you should always try multiple approaches and compare them on held-out data. But it does *not* mean you should try every algorithm randomly -- the decision framework above gives you informed starting points based on decades of practitioner experience.
 
 !!! action "What to Do"
-    1. 📖 Read the scikit-learn algorithm cheat sheet for a visual guide to model selection
-    2. 💻 Pick a Kaggle dataset and practice the full workflow: explore data, choose 2-3 algorithms based on the framework above, train, evaluate with cross-validation, compare results
-    3. 📖 Read about cross-validation and train/test splits in ISLR Chapter 5 to understand why evaluation methodology matters as much as algorithm choice
+    - [ ] 📖 Read the scikit-learn algorithm cheat sheet for a visual guide to model selection
+    - [ ] 💻 Pick a Kaggle dataset and practice the full workflow: explore data, choose 2-3 algorithms based on the framework above, train, evaluate with cross-validation, compare results
+    - [ ] 📖 Read about cross-validation and train/test splits in ISLR Chapter 5 to understand why evaluation methodology matters as much as algorithm choice
 
 **Resources:**
 

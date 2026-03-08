@@ -37,3 +37,49 @@
   -webkit-mask-image: var(--md-admonition-icon--prerequisite);
           mask-image: var(--md-admonition-icon--prerequisite);
 }
+
+/* Checkbox checked highlight */
+.task-list-item.task-checked {
+  background-color: rgba(76, 175, 80, 0.08);
+  border-radius: 4px;
+  padding: 2px 4px;
+  margin: -2px -4px;
+}
+[data-md-color-scheme="slate"] .task-list-item.task-checked {
+  background-color: rgba(76, 175, 80, 0.12);
+}
+
+/* Progress bar styles */
+.progress-bar-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-left: 0.5em;
+  font-size: 0.75rem;
+}
+.progress-bar-track {
+  width: 200px;
+  height: 6px;
+  background-color: var(--md-default-fg-color--lightest);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.progress-bar-fill {
+  height: 100%;
+  background-color: var(--md-primary-fg-color);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+.progress-bar-label {
+  color: var(--md-default-fg-color--light);
+  white-space: nowrap;
+}
+.section-progress {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  margin-bottom: 1em;
+  padding: 0.5em 0;
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+}
