@@ -22,15 +22,15 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Content Format
 
-- [ ] **CFMT-01**: Each topic follows teach+link format: brief explanation, key concepts, teaching moments, then curated resource links
-- [ ] **CFMT-02**: Learning outcomes stated at the start of each section ("By the end, you will...")
-- [ ] **CFMT-03**: Action items per step telling the learner exactly what to do (read, build, complete)
-- [ ] **CFMT-04**: Prerequisites clearly stated on landing page and at the top of each major section
-- [ ] **CFMT-05**: Free-first resource curation with paid alternatives noted when significantly better
-- [ ] **CFMT-06**: Time estimates at the top of each section (estimated hours to complete)
-- [ ] **CFMT-07**: Difficulty level indicators per section (Beginner / Intermediate / Advanced)
-- [ ] **CFMT-08**: Guidelines and teaching moments woven throughout as admonition callouts
-- [ ] **CFMT-09**: Opinionated consolidation of popular roadmaps (roadmap.sh, Andrew Ng, fast.ai, Stanford, etc.) into one definitive path
+- [x] **CFMT-01**: Each topic follows teach+link format: brief explanation, key concepts, teaching moments, then curated resource links
+- [x] **CFMT-02**: Learning outcomes stated at the start of each section ("By the end, you will...")
+- [x] **CFMT-03**: Action items per step telling the learner exactly what to do (read, build, complete)
+- [x] **CFMT-04**: Prerequisites clearly stated on landing page and at the top of each major section
+- [x] **CFMT-05**: Free-first resource curation with paid alternatives noted when significantly better
+- [x] **CFMT-06**: Time estimates at the top of each section (estimated hours to complete)
+- [x] **CFMT-07**: Difficulty level indicators per section (Beginner / Intermediate / Advanced)
+- [x] **CFMT-08**: Guidelines and teaching moments woven throughout as admonition callouts
+- [x] **CFMT-09**: Opinionated consolidation of popular roadmaps (roadmap.sh, Andrew Ng, fast.ai, Stanford, etc.) into one definitive path
 
 ### Core Content -- Math Foundations
 
@@ -139,15 +139,15 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SITE-08 | Phase 1 | Complete |
 | SITE-09 | Phase 1 | Complete |
 | SITE-10 | Phase 9 | Pending |
-| CFMT-01 | Phase 2 | Pending |
-| CFMT-02 | Phase 2 | Pending |
-| CFMT-03 | Phase 2 | Pending |
-| CFMT-04 | Phase 2 | Pending |
-| CFMT-05 | Phase 2 | Pending |
-| CFMT-06 | Phase 2 | Pending |
-| CFMT-07 | Phase 2 | Pending |
-| CFMT-08 | Phase 2 | Pending |
-| CFMT-09 | Phase 2 | Pending |
+| CFMT-01 | Phase 2 | Complete |
+| CFMT-02 | Phase 2 | Complete |
+| CFMT-03 | Phase 2 | Complete |
+| CFMT-04 | Phase 2 | Complete |
+| CFMT-05 | Phase 2 | Complete |
+| CFMT-06 | Phase 2 | Complete |
+| CFMT-07 | Phase 2 | Complete |
+| CFMT-08 | Phase 2 | Complete |
+| CFMT-09 | Phase 2 | Complete |
 | MATH-01 | Phase 4 | Pending |
 | MATH-02 | Phase 4 | Pending |
 | MATH-03 | Phase 4 | Pending |

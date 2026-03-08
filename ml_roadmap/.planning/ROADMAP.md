@@ -50,11 +50,11 @@ Plans:
   2. Every content page template includes prerequisite callout, time estimate, and difficulty indicator at the top
   3. The reference section demonstrates the opinionated consolidation approach -- citing and reconciling specific recommendations from roadmap.sh, Andrew Ng, fast.ai, and Stanford sources into one clear path
   4. A content authoring checklist exists that can be used to verify any new page follows the template before it ships
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
+- [ ] 02-01-PLAN.md -- Custom admonition CSS and Supervised Learning reference page
+- [ ] 02-02-PLAN.md -- Content authoring checklist
 
 ### Phase 3: Progress Tracking
 **Goal**: A learner can check off completed items on any page, see their progress persist across browser sessions, and view per-section progress bars -- all without creating an account
@@ -173,7 +173,7 @@ Note: Phases 4-8 (content phases) can be executed in parallel once Phases 2 and 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Project Skeleton and Configuration | 3/3 | Complete | 2026-03-08 |
-| 2. Content Template System | 0/0 | Not started | - |
+| 2. Content Template System | 0/2 | Not started | - |
 | 3. Progress Tracking | 0/0 | Not started | - |
 | 4. Math Foundations Content | 0/0 | Not started | - |
 | 5. Python ML Ecosystem Content | 0/0 | Not started | - |
