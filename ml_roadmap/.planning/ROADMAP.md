@@ -65,11 +65,11 @@ Plans:
   2. Each section index page displays a progress bar showing percentage of completed items within that section
   3. Progress tracking works correctly when navigating between pages using MKDocs Material instant-loading (no full page reload required)
   4. All localStorage operations are wrapped in try/catch with a visible notice to users that progress is stored locally in their browser
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
+- [ ] 03-01-PLAN.md -- Checkbox persistence JS, CSS styles, mkdocs.yml config, and supervised-learning.md task list conversion
+- [ ] 03-02-PLAN.md -- Progress bar rendering on index pages and localStorage info admonitions
 
 ### Phase 4: Math Foundations Content
 **Goal**: A learner can work through the complete math foundations section and emerge understanding the linear algebra, calculus, and probability concepts needed for ML -- with clear teaching, guided action items, and curated resources
@@ -174,7 +174,7 @@ Note: Phases 4-8 (content phases) can be executed in parallel once Phases 2 and 
 |-------|----------------|--------|-----------|
 | 1. Project Skeleton and Configuration | 3/3 | Complete | 2026-03-08 |
 | 2. Content Template System | 0/2 | Not started | - |
-| 3. Progress Tracking | 0/0 | Not started | - |
+| 3. Progress Tracking | 0/2 | Not started | - |
 | 4. Math Foundations Content | 0/0 | Not started | - |
 | 5. Python ML Ecosystem Content | 0/0 | Not started | - |
 | 6. Classical ML Content | 0/0 | Not started | - |
