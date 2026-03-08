@@ -83,9 +83,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 04-01-PLAN.md -- Linear Algebra content page and Math Foundations index upgrade
-- [ ] 04-02-PLAN.md -- Calculus content page
-- [ ] 04-03-PLAN.md -- Probability & Statistics content page
+- [x] 04-01-PLAN.md -- Linear Algebra content page and Math Foundations index upgrade
+- [x] 04-02-PLAN.md -- Calculus content page
+- [x] 04-03-PLAN.md -- Probability & Statistics content page
 
 ### Phase 5: Python ML Ecosystem Content
 **Goal**: A learner can work through the Python ML ecosystem section and become proficient with the core Python data science and ML libraries needed before tackling ML algorithms
@@ -175,8 +175,8 @@ Note: Phases 4-8 (content phases) can be executed in parallel once Phases 2 and 
 |-------|----------------|--------|-----------|
 | 1. Project Skeleton and Configuration | 3/3 | Complete | 2026-03-08 |
 | 2. Content Template System | 2/2 | Complete | 2026-03-08 |
-| 3. Progress Tracking | 1/2 | In progress | - |
-| 4. Math Foundations Content | 0/3 | Not started | - |
+| 3. Progress Tracking | 2/2 | Complete | 2026-03-08 |
+| 4. Math Foundations Content | 3/3 | Complete | 2026-03-08 |
 | 5. Python ML Ecosystem Content | 0/0 | Not started | - |
 | 6. Classical ML Content | 0/0 | Not started | - |
 | 7. Deep Learning Content | 0/0 | Not started | - |
