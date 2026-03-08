@@ -69,7 +69,7 @@ Plans:
 
 Plans:
 - [x] 03-01-PLAN.md -- Checkbox persistence JS, CSS styles, mkdocs.yml config, and supervised-learning.md task list conversion
-- [ ] 03-02-PLAN.md -- Progress bar rendering on index pages and localStorage info admonitions
+- [x] 03-02-PLAN.md -- Progress bar rendering on index pages and localStorage info admonitions
 
 ### Phase 4: Math Foundations Content
 **Goal**: A learner can work through the complete math foundations section and emerge understanding the linear algebra, calculus, and probability concepts needed for ML -- with clear teaching, guided action items, and curated resources
