@@ -3,12 +3,12 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-03-08T17:13:41.158Z"
+last_updated: "2026-03-08T18:00:00.000Z"
 progress:
-  total_phases: 5
-  completed_phases: 5
-  total_plans: 13
-  completed_plans: 13
+  total_phases: 6
+  completed_phases: 6
+  total_plans: 16
+  completed_plans: 16
 ---
 
 # Project State
@@ -18,16 +18,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-08)
 
 **Core value:** Eliminate decision paralysis -- one curated, well-structured path from ML foundations to job-ready, ship-capable, and research-literate
-**Current focus:** Phase 5: Python ML Ecosystem Content -- COMPLETE
+**Current focus:** Phase 6: Classical ML Content -- COMPLETE
 
 ## Current Position
 
-Phase: 5 of 9 (Python ML Ecosystem Content) -- COMPLETE
+Phase: 6 of 9 (Classical ML Content) -- COMPLETE
 Plan: 3 of 3 in current phase
-Status: Phase 5 complete. All 4 Python ML content pages written + section index upgraded.
-Last activity: 2026-03-08 -- Completed all Python ML ecosystem content (NumPy, Pandas, Visualization, Scikit-learn)
+Status: Phase 6 complete. All 4 Classical ML content pages written + section index upgraded.
+Last activity: 2026-03-08 -- Completed all Classical ML content (Supervised updates, Unsupervised, Model Evaluation, Feature Engineering)
 
-Progress: [██████░░░░] 56%
+Progress: [███████░░░] 67%
 
 ## Performance Metrics
 
@@ -55,6 +55,9 @@ Progress: [██████░░░░] 56%
 | Phase 02 P02 | 1min | 1 tasks | 1 files |
 | Phase 03 P01 | 3min | 2 tasks | 4 files |
 | Phase 03 P02 | 3min | 2 tasks | 7 files |
+| Phase 06 P01 | 8min | 2 tasks | 2 files |
+| Phase 06 P02 | 6min | 1 tasks | 1 files |
+| Phase 06 P03 | 5min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -82,6 +85,11 @@ Recent decisions affecting current work:
 - [Phase 05-02]: Visualization page describes plots in text (no embedded images) per research pitfall 6; links to galleries
 - [Phase 05-02]: "Why This Path" in Pandas cleaning sub-topic (60-80% practitioner time) and Visualization Seaborn sub-topic (Andrew Ng "look at your data")
 - [Phase 05-03]: Scikit-learn page teaches API patterns only, not algorithm theory (reserved for Phase 6); end-to-end 7-step workflow
+- [Phase 06-01]: Added 3 inline Python snippets to supervised-learning.md -- conservative changes preserving template reference role
+- [Phase 06-01]: Unsupervised page includes semi-supervised learning mention as hybrid approach
+- [Phase 06-02]: Model evaluation page is self-contained -- teaches concepts fully but links to supervised-learning.md for algorithm selection
+- [Phase 06-03]: Feature engineering page explicitly warns about data leakage in pipelines section with warning admonition
+- [Phase 06-03]: Core ML index totals ~28-32 hours across all 4 pages
 
 ### Pending Todos
 
@@ -97,5 +105,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-03-08
-Stopped at: Completed Phase 5 Python ML ecosystem content (05-01, 05-02, 05-03). All content pages written + index upgraded.
+Stopped at: Completed Phase 6 Classical ML content (06-01, 06-02, 06-03). All content pages written + index upgraded.
 Resume file: None

@@ -17,7 +17,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [ ] **Phase 3: Progress Tracking** - localStorage-based interactive checkboxes and progress bars working across all pages with instant-loading compatibility
 - [ ] **Phase 4: Math Foundations Content** - Complete math foundations section covering linear algebra, calculus, and probability/statistics for ML
 - [ ] **Phase 5: Python ML Ecosystem Content** - Complete Python ML toolkit section covering NumPy, Pandas, visualization, and Scikit-learn
-- [ ] **Phase 6: Classical ML Content** - Complete classical ML section covering supervised, unsupervised, evaluation, and feature engineering
+- [x] **Phase 6: Classical ML Content** - Complete classical ML section covering supervised, unsupervised, evaluation, and feature engineering
 - [ ] **Phase 7: Deep Learning Content** - Complete deep learning section covering neural nets, CNNs, RNNs, Transformers, and frameworks
 - [ ] **Phase 8: MLOps and Research Skills Content** - Complete MLOps section and research skills section covering production ML and paper literacy
 - [ ] **Phase 9: Landing Page, Deployment, and Polish** - Landing page, visual roadmap overview, navigation polish, and live deployment to GitHub Pages
@@ -113,11 +113,12 @@ Plans:
   2. Unsupervised learning section covers clustering, dimensionality reduction, and anomaly detection with practical use cases
   3. Model evaluation section covers metrics, cross-validation, bias-variance tradeoff, and hyperparameter tuning with concrete methodology the learner can apply
   4. Feature engineering section covers feature selection, extraction, and data pipeline patterns with real-world examples
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 06-01: TBD
-- [ ] 06-02: TBD
+- [x] 06-01-PLAN.md -- Supervised learning update + unsupervised learning content page
+- [x] 06-02-PLAN.md -- Model evaluation content page
+- [x] 06-03-PLAN.md -- Feature engineering content page + Core ML index upgrade
 
 ### Phase 7: Deep Learning Content
 **Goal**: A learner can work through the complete deep learning section from neural network fundamentals through modern Transformer architectures and gain practical framework skills
@@ -179,7 +180,7 @@ Note: Phases 4-8 (content phases) can be executed in parallel once Phases 2 and 
 | 3. Progress Tracking | 2/2 | Complete | 2026-03-08 |
 | 4. Math Foundations Content | 3/3 | Complete | 2026-03-08 |
 | 5. Python ML Ecosystem Content | 0/3 | Not started | - |
-| 6. Classical ML Content | 0/0 | Not started | - |
+| 6. Classical ML Content | 3/3 | Complete | 2026-03-08 |
 | 7. Deep Learning Content | 0/0 | Not started | - |
 | 8. MLOps and Research Skills Content | 0/0 | Not started | - |
 | 9. Landing Page, Deployment, and Polish | 0/0 | Not started | - |
