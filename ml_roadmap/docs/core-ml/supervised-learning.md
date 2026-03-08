@@ -63,7 +63,18 @@ The training process finds the weights that minimize the **mean squared error (M
 !!! action "What to Do"
     - [ ] 🎥 Watch StatQuest's "Linear Regression" (11 min) for visual intuition on least squares and R-squared
     - [ ] 📘 Read ISLR Chapter 3.1-3.2 for the statistical foundations of simple and multiple regression
-    - [ ] 💻 Train a `LinearRegression` on the California Housing dataset using scikit-learn, evaluate with R-squared, and inspect the learned coefficients
+    - [ ] 💻 Train a `LinearRegression` on the California Housing dataset using scikit-learn, evaluate with R-squared, and inspect the learned coefficients:
+
+    ```python
+    from sklearn.linear_model import LinearRegression
+    from sklearn.datasets import fetch_california_housing
+    from sklearn.model_selection import train_test_split
+
+    X, y = fetch_california_housing(return_X_y=True)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42)
+    model = LinearRegression().fit(X_train, y_train)
+    print(f"R² = {model.score(X_test, y_test):.3f}")
+    ```
 
 **Resources:**
 
@@ -153,7 +164,19 @@ Ensemble methods combine multiple models to produce better predictions than any 
 !!! action "What to Do"
     - [ ] 🎥 Watch StatQuest's "Random Forests" (10 min) and "XGBoost" series (4 parts, ~40 min total) for visual intuition on bagging and boosting
     - [ ] 📘 Read ISLR Chapter 8.2 for the theory behind bagging, random forests, and boosting
-    - [ ] 💻 Train a `RandomForestClassifier` on the Iris dataset, compare accuracy with a single `DecisionTreeClassifier`, then try `XGBClassifier` from the xgboost library
+    - [ ] 💻 Train a `RandomForestClassifier` on the Iris dataset, compare accuracy with a single `DecisionTreeClassifier`, then try `XGBClassifier` from the xgboost library:
+
+    ```python
+    from sklearn.ensemble import RandomForestClassifier
+    from sklearn.tree import DecisionTreeClassifier
+    from sklearn.model_selection import cross_val_score
+    from sklearn.datasets import load_iris
+
+    X, y = load_iris(return_X_y=True)
+    tree_scores = cross_val_score(DecisionTreeClassifier(), X, y, cv=5)
+    rf_scores = cross_val_score(RandomForestClassifier(n_estimators=100), X, y, cv=5)
+    print(f"Tree: {tree_scores.mean():.3f}, RF: {rf_scores.mean():.3f}")
+    ```
 
 **Resources:**
 
@@ -181,7 +204,17 @@ For non-linearly separable data, SVMs use the **kernel trick** -- a mathematical
 !!! action "What to Do"
     - [ ] 🎥 Watch StatQuest's "Support Vector Machines" (20 min) for the geometric intuition of margins and kernels
     - [ ] 📖 Read the scikit-learn SVM guide for practical usage patterns and kernel choices
-    - [ ] 💻 Train an `SVC` on a 2D dataset, visualize the decision boundary and support vectors, then experiment with different kernels (linear, RBF, polynomial)
+    - [ ] 💻 Train an `SVC` on a 2D dataset, visualize the decision boundary and support vectors, then experiment with different kernels (linear, RBF, polynomial):
+
+    ```python
+    from sklearn.svm import SVC
+    from sklearn.datasets import make_moons
+
+    X, y = make_moons(n_samples=200, noise=0.2, random_state=42)
+    svm_linear = SVC(kernel='linear').fit(X, y)
+    svm_rbf = SVC(kernel='rbf').fit(X, y)
+    print(f"Linear: {svm_linear.score(X, y):.3f}, RBF: {svm_rbf.score(X, y):.3f}")
+    ```
 
 **Resources:**
 
