@@ -14,7 +14,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **SITE-03**: Dark mode toggle with OS preference auto-detection
 - [x] **SITE-04**: Responsive design that works on mobile and tablet
 - [x] **SITE-05**: Python code blocks with syntax highlighting, line numbers, and copy button
-- [ ] **SITE-06**: Math equation rendering for linear algebra, calculus, and probability notation
+- [x] **SITE-06**: Math equation rendering for linear algebra, calculus, and probability notation
 - [x] **SITE-07**: Admonition boxes for tips, warnings, prerequisites, and key concepts
 - [x] **SITE-08**: Content tabs for showing alternative approaches (e.g., TensorFlow vs PyTorch)
 - [x] **SITE-09**: Mermaid diagrams showing topic prerequisites and relationships

@@ -34,11 +34,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Dark mode toggle works and respects OS preference on first visit
   4. Site renders correctly on mobile viewport (375px width) with readable text and functional navigation
   5. A test page demonstrates working syntax-highlighted Python code blocks with copy button, rendered LaTeX math equations, admonition boxes, content tabs, and a Mermaid diagram
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
 - [x] 01-01: Project skeleton with MkDocs Material, navigation, 30 placeholder pages
 - [x] 01-02: Features demo page validating all extensions (math rendering deferred)
+- [x] 01-03: Fix MathJax math rendering (gap closure for SITE-06)
 
 ### Phase 2: Content Template System
 **Goal**: The teach+link content format is fully defined, documented as a reusable template, and validated on one complete reference section -- so all subsequent content authoring follows a proven pattern
@@ -171,7 +172,7 @@ Note: Phases 4-8 (content phases) can be executed in parallel once Phases 2 and 
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Project Skeleton and Configuration | 2/2 | Complete | 2026-03-08 |
+| 1. Project Skeleton and Configuration | 3/3 | Complete | 2026-03-08 |
 | 2. Content Template System | 0/0 | Not started | - |
 | 3. Progress Tracking | 0/0 | Not started | - |
 | 4. Math Foundations Content | 0/0 | Not started | - |
