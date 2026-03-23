@@ -12,13 +12,13 @@ This roadmap delivers a complete MKDocs-based study roadmap site for ML engineer
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Project Skeleton and Configuration** - MKDocs site with Material theme, extensions, navigation structure, and all infrastructure features enabled
-- [ ] **Phase 2: Content Template System** - Teach+link content format established, validated with a reference section, and all content formatting requirements met
+- [x] **Phase 1: Project Skeleton and Configuration** - MKDocs site with Material theme, extensions, navigation structure, and all infrastructure features enabled
+- [x] **Phase 2: Content Template System** - Teach+link content format established, validated with a reference section, and all content formatting requirements met
 - [ ] **Phase 3: Progress Tracking** - localStorage-based interactive checkboxes and progress bars working across all pages with instant-loading compatibility
 - [ ] **Phase 4: Math Foundations Content** - Complete math foundations section covering linear algebra, calculus, and probability/statistics for ML
 - [ ] **Phase 5: Python ML Ecosystem Content** - Complete Python ML toolkit section covering NumPy, Pandas, visualization, and Scikit-learn
-- [ ] **Phase 6: Classical ML Content** - Complete classical ML section covering supervised, unsupervised, evaluation, and feature engineering
-- [ ] **Phase 7: Deep Learning Content** - Complete deep learning section covering neural nets, CNNs, RNNs, Transformers, and frameworks
+- [x] **Phase 6: Classical ML Content** - Complete classical ML section covering supervised, unsupervised, evaluation, and feature engineering
+- [x] **Phase 7: Deep Learning Content** - Complete deep learning section covering neural nets, CNNs, RNNs, Transformers, and frameworks (2026-03-08)
 - [ ] **Phase 8: MLOps and Research Skills Content** - Complete MLOps section and research skills section covering production ML and paper literacy
 - [ ] **Phase 9: Landing Page, Deployment, and Polish** - Landing page, visual roadmap overview, navigation polish, and live deployment to GitHub Pages
 
@@ -34,11 +34,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Dark mode toggle works and respects OS preference on first visit
   4. Site renders correctly on mobile viewport (375px width) with readable text and functional navigation
   5. A test page demonstrates working syntax-highlighted Python code blocks with copy button, rendered LaTeX math equations, admonition boxes, content tabs, and a Mermaid diagram
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
+- [x] 01-01: Project skeleton with MkDocs Material, navigation, 30 placeholder pages
+- [x] 01-02: Features demo page validating all extensions (math rendering deferred)
+- [x] 01-03: Fix MathJax math rendering (gap closure for SITE-06)
 
 ### Phase 2: Content Template System
 **Goal**: The teach+link content format is fully defined, documented as a reusable template, and validated on one complete reference section -- so all subsequent content authoring follows a proven pattern
@@ -49,11 +50,11 @@ Plans:
   2. Every content page template includes prerequisite callout, time estimate, and difficulty indicator at the top
   3. The reference section demonstrates the opinionated consolidation approach -- citing and reconciling specific recommendations from roadmap.sh, Andrew Ng, fast.ai, and Stanford sources into one clear path
   4. A content authoring checklist exists that can be used to verify any new page follows the template before it ships
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
+- [x] 02-01-PLAN.md -- Custom admonition CSS and Supervised Learning reference page
+- [x] 02-02-PLAN.md -- Content authoring checklist
 
 ### Phase 3: Progress Tracking
 **Goal**: A learner can check off completed items on any page, see their progress persist across browser sessions, and view per-section progress bars -- all without creating an account
@@ -64,11 +65,11 @@ Plans:
   2. Each section index page displays a progress bar showing percentage of completed items within that section
   3. Progress tracking works correctly when navigating between pages using MKDocs Material instant-loading (no full page reload required)
   4. All localStorage operations are wrapped in try/catch with a visible notice to users that progress is stored locally in their browser
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
+- [x] 03-01-PLAN.md -- Checkbox persistence JS, CSS styles, mkdocs.yml config, and supervised-learning.md task list conversion
+- [x] 03-02-PLAN.md -- Progress bar rendering on index pages and localStorage info admonitions
 
 ### Phase 4: Math Foundations Content
 **Goal**: A learner can work through the complete math foundations section and emerge understanding the linear algebra, calculus, and probability concepts needed for ML -- with clear teaching, guided action items, and curated resources
@@ -79,11 +80,12 @@ Plans:
   2. Calculus section covers derivatives, gradients, chain rule, and optimization basics with concrete ML examples (e.g., gradient descent walkthrough)
   3. Probability section covers distributions, Bayes theorem, hypothesis testing, and statistical thinking with ML-relevant framing
   4. Every page in the section follows the validated content template: learning outcomes, teach+link format, action items, free-first resources, time estimate, difficulty indicator
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 04-01: TBD
-- [ ] 04-02: TBD
+- [x] 04-01-PLAN.md -- Linear Algebra content page and Math Foundations index upgrade
+- [x] 04-02-PLAN.md -- Calculus content page
+- [x] 04-03-PLAN.md -- Probability & Statistics content page
 
 ### Phase 5: Python ML Ecosystem Content
 **Goal**: A learner can work through the Python ML ecosystem section and become proficient with the core Python data science and ML libraries needed before tackling ML algorithms
@@ -95,11 +97,12 @@ Plans:
   3. Visualization section covers Matplotlib and Seaborn with ML-specific plot types (confusion matrices, learning curves, feature distributions)
   4. Scikit-learn section covers the estimator API pattern, preprocessing pipelines, model selection, and evaluation with end-to-end workflow examples
   5. Every page follows the content template and all code blocks have syntax highlighting, line numbers, and copy buttons
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 05-01: TBD
-- [ ] 05-02: TBD
+- [ ] 05-01-PLAN.md -- NumPy content page and Python ML section index upgrade
+- [ ] 05-02-PLAN.md -- Pandas and Visualization content pages
+- [ ] 05-03-PLAN.md -- Scikit-learn content page
 
 ### Phase 6: Classical ML Content
 **Goal**: A learner can work through the complete classical ML section and understand core ML algorithms, evaluation methodology, and practical feature engineering
@@ -110,11 +113,12 @@ Plans:
   2. Unsupervised learning section covers clustering, dimensionality reduction, and anomaly detection with practical use cases
   3. Model evaluation section covers metrics, cross-validation, bias-variance tradeoff, and hyperparameter tuning with concrete methodology the learner can apply
   4. Feature engineering section covers feature selection, extraction, and data pipeline patterns with real-world examples
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 06-01: TBD
-- [ ] 06-02: TBD
+- [x] 06-01-PLAN.md -- Supervised learning update + unsupervised learning content page
+- [x] 06-02-PLAN.md -- Model evaluation content page
+- [x] 06-03-PLAN.md -- Feature engineering content page + Core ML index upgrade
 
 ### Phase 7: Deep Learning Content
 **Goal**: A learner can work through the complete deep learning section from neural network fundamentals through modern Transformer architectures and gain practical framework skills
@@ -126,11 +130,12 @@ Plans:
   3. RNNs section covers LSTMs, GRUs, and sequence-to-sequence patterns with clear explanation of the vanishing gradient motivation
   4. Transformers section covers self-attention, BERT, GPT architecture, and modern LLMs -- positioned as the current state of the art with historical context
   5. Frameworks section covers practical PyTorch and/or TensorFlow usage with content tabs showing both where applicable
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 07-01: TBD
-- [ ] 07-02: TBD
+- [x] 07-01-PLAN.md -- Neural Network Fundamentals and CNNs content pages
+- [x] 07-02-PLAN.md -- RNNs & Sequence Models and Transformers & Attention content pages
+- [x] 07-03-PLAN.md -- Frameworks content page (with content tabs) and Deep Learning index upgrade
 
 ### Phase 8: MLOps and Research Skills Content
 **Goal**: A learner can work through production ML skills and research literacy sections, completing the transition from "understands ML" to "can ship and stay current"
@@ -142,11 +147,13 @@ Plans:
   3. Monitoring section covers data drift, model decay, and retraining strategies with observable indicators and decision frameworks
   4. ML system design section covers end-to-end architecture patterns with Mermaid diagrams showing production ML pipelines
   5. Research skills sections cover paper reading methodology, result reproduction workflow, and staying current via arXiv/conferences/community
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 08-01: TBD
-- [ ] 08-02: TBD
+- [x] 08-01-PLAN.md -- MLOps content pages: project lifecycle, model deployment, monitoring (MLOP-01, MLOP-02, MLOP-03)
+- [x] 08-02-PLAN.md -- ML system design page and MLOps index upgrade (MLOP-04)
+- [ ] 08-03-PLAN.md -- Research skills content pages: reading papers and reproducing results (RSCH-01, RSCH-02)
+- [ ] 08-04-PLAN.md -- Staying current page and research-skills index upgrade (RSCH-03)
 
 ### Phase 9: Landing Page, Deployment, and Polish
 **Goal**: A new visitor lands on the site, immediately understands what it is, who it is for, and how to navigate the learning path -- and the site is live on GitHub Pages
@@ -171,12 +178,12 @@ Note: Phases 4-8 (content phases) can be executed in parallel once Phases 2 and 
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Project Skeleton and Configuration | 0/0 | Not started | - |
-| 2. Content Template System | 0/0 | Not started | - |
-| 3. Progress Tracking | 0/0 | Not started | - |
-| 4. Math Foundations Content | 0/0 | Not started | - |
-| 5. Python ML Ecosystem Content | 0/0 | Not started | - |
-| 6. Classical ML Content | 0/0 | Not started | - |
-| 7. Deep Learning Content | 0/0 | Not started | - |
-| 8. MLOps and Research Skills Content | 0/0 | Not started | - |
+| 1. Project Skeleton and Configuration | 3/3 | Complete | 2026-03-08 |
+| 2. Content Template System | 2/2 | Complete | 2026-03-08 |
+| 3. Progress Tracking | 2/2 | Complete | 2026-03-08 |
+| 4. Math Foundations Content | 3/3 | Complete | 2026-03-08 |
+| 5. Python ML Ecosystem Content | 0/3 | Not started | - |
+| 6. Classical ML Content | 3/3 | Complete | 2026-03-08 |
+| 7. Deep Learning Content | 3/3 | Complete | 2026-03-08 |
+| 8. MLOps and Research Skills Content | 3/4 | In Progress|  |
 | 9. Landing Page, Deployment, and Polish | 0/0 | Not started | - |

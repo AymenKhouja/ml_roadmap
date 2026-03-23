@@ -13,7 +13,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **SITE-02**: Full-text search across all content pages
 - [x] **SITE-03**: Dark mode toggle with OS preference auto-detection
 - [x] **SITE-04**: Responsive design that works on mobile and tablet
-- [ ] **SITE-05**: Python code blocks with syntax highlighting, line numbers, and copy button
+- [x] **SITE-05**: Python code blocks with syntax highlighting, line numbers, and copy button
 - [x] **SITE-06**: Math equation rendering for linear algebra, calculus, and probability notation
 - [x] **SITE-07**: Admonition boxes for tips, warnings, prerequisites, and key concepts
 - [x] **SITE-08**: Content tabs for showing alternative approaches (e.g., TensorFlow vs PyTorch)
@@ -22,15 +22,15 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Content Format
 
-- [ ] **CFMT-01**: Each topic follows teach+link format: brief explanation, key concepts, teaching moments, then curated resource links
-- [ ] **CFMT-02**: Learning outcomes stated at the start of each section ("By the end, you will...")
-- [ ] **CFMT-03**: Action items per step telling the learner exactly what to do (read, build, complete)
-- [ ] **CFMT-04**: Prerequisites clearly stated on landing page and at the top of each major section
-- [ ] **CFMT-05**: Free-first resource curation with paid alternatives noted when significantly better
-- [ ] **CFMT-06**: Time estimates at the top of each section (estimated hours to complete)
-- [ ] **CFMT-07**: Difficulty level indicators per section (Beginner / Intermediate / Advanced)
-- [ ] **CFMT-08**: Guidelines and teaching moments woven throughout as admonition callouts
-- [ ] **CFMT-09**: Opinionated consolidation of popular roadmaps (roadmap.sh, Andrew Ng, fast.ai, Stanford, etc.) into one definitive path
+- [x] **CFMT-01**: Each topic follows teach+link format: brief explanation, key concepts, teaching moments, then curated resource links
+- [x] **CFMT-02**: Learning outcomes stated at the start of each section ("By the end, you will...")
+- [x] **CFMT-03**: Action items per step telling the learner exactly what to do (read, build, complete)
+- [x] **CFMT-04**: Prerequisites clearly stated on landing page and at the top of each major section
+- [x] **CFMT-05**: Free-first resource curation with paid alternatives noted when significantly better
+- [x] **CFMT-06**: Time estimates at the top of each section (estimated hours to complete)
+- [x] **CFMT-07**: Difficulty level indicators per section (Beginner / Intermediate / Advanced)
+- [x] **CFMT-08**: Guidelines and teaching moments woven throughout as admonition callouts
+- [x] **CFMT-09**: Opinionated consolidation of popular roadmaps (roadmap.sh, Andrew Ng, fast.ai, Stanford, etc.) into one definitive path
 
 ### Core Content -- Math Foundations
 
@@ -62,15 +62,15 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Core Content -- MLOps & Production
 
-- [ ] **MLOP-01**: ML project lifecycle section covering experiment tracking, reproducibility, and versioning
-- [ ] **MLOP-02**: Model deployment section covering serving, APIs, containerization, and cloud platforms
-- [ ] **MLOP-03**: Monitoring and maintenance section covering data drift, model decay, and retraining strategies
-- [ ] **MLOP-04**: ML system design section covering end-to-end architecture patterns for production ML
+- [x] **MLOP-01**: ML project lifecycle section covering experiment tracking, reproducibility, and versioning
+- [x] **MLOP-02**: Model deployment section covering serving, APIs, containerization, and cloud platforms
+- [x] **MLOP-03**: Monitoring and maintenance section covering data drift, model decay, and retraining strategies
+- [x] **MLOP-04**: ML system design section covering end-to-end architecture patterns for production ML
 
 ### Core Content -- Research Skills
 
-- [ ] **RSCH-01**: Paper reading section covering how to efficiently read and critically evaluate ML research papers
-- [ ] **RSCH-02**: Reproducing results section covering how to implement papers, common pitfalls, and practical tips
+- [x] **RSCH-01**: Paper reading section covering how to efficiently read and critically evaluate ML research papers
+- [x] **RSCH-02**: Reproducing results section covering how to implement papers, common pitfalls, and practical tips
 - [ ] **RSCH-03**: Staying current section covering arXiv, conferences, key researchers, and community resources
 
 ### Interactivity
@@ -139,15 +139,15 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SITE-08 | Phase 1 | Complete |
 | SITE-09 | Phase 1 | Complete |
 | SITE-10 | Phase 9 | Pending |
-| CFMT-01 | Phase 2 | Pending |
-| CFMT-02 | Phase 2 | Pending |
-| CFMT-03 | Phase 2 | Pending |
-| CFMT-04 | Phase 2 | Pending |
-| CFMT-05 | Phase 2 | Pending |
-| CFMT-06 | Phase 2 | Pending |
-| CFMT-07 | Phase 2 | Pending |
-| CFMT-08 | Phase 2 | Pending |
-| CFMT-09 | Phase 2 | Pending |
+| CFMT-01 | Phase 2 | Complete |
+| CFMT-02 | Phase 2 | Complete |
+| CFMT-03 | Phase 2 | Complete |
+| CFMT-04 | Phase 2 | Complete |
+| CFMT-05 | Phase 2 | Complete |
+| CFMT-06 | Phase 2 | Complete |
+| CFMT-07 | Phase 2 | Complete |
+| CFMT-08 | Phase 2 | Complete |
+| CFMT-09 | Phase 2 | Complete |
 | MATH-01 | Phase 4 | Pending |
 | MATH-02 | Phase 4 | Pending |
 | MATH-03 | Phase 4 | Pending |
@@ -164,12 +164,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | DEEP-03 | Phase 7 | Pending |
 | DEEP-04 | Phase 7 | Pending |
 | DEEP-05 | Phase 7 | Pending |
-| MLOP-01 | Phase 8 | Pending |
-| MLOP-02 | Phase 8 | Pending |
-| MLOP-03 | Phase 8 | Pending |
-| MLOP-04 | Phase 8 | Pending |
-| RSCH-01 | Phase 8 | Pending |
-| RSCH-02 | Phase 8 | Pending |
+| MLOP-01 | Phase 8 | Complete |
+| MLOP-02 | Phase 8 | Complete |
+| MLOP-03 | Phase 8 | Complete |
+| MLOP-04 | Phase 8 | Complete |
+| RSCH-01 | Phase 8 | Complete |
+| RSCH-02 | Phase 8 | Complete |
 | RSCH-03 | Phase 8 | Pending |
 | INTR-01 | Phase 3 | Pending |
 | INTR-02 | Phase 3 | Pending |

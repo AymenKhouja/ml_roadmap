@@ -12,5 +12,8 @@ window.MathJax = {
 };
 
 document$.subscribe(() => {
+  MathJax.startup.output.clearCache()
+  MathJax.texReset()
+  MathJax.typesetClear()
   MathJax.typesetPromise()
 })
