@@ -105,6 +105,15 @@ None - no external service configuration required. All tools referenced (Zotero,
 - Phase 08-04 (staying-current.md) is the remaining research skills page
 - Cross-links from reading-papers.md -> reproducing-results.md -> staying-current.md are wired; staying-current.md must exist for the final link to resolve
 
+## Self-Check: PASSED
+
+- FOUND: docs/research-skills/reading-papers.md (253 lines)
+- FOUND: docs/research-skills/reproducing-results.md (251 lines)
+- FOUND: .planning/phases/08-mlops-and-research-skills-content/08-03-SUMMARY.md
+- FOUND: commit 1c2fbc8 (reading-papers.md)
+- FOUND: commit 4f96d63 (reproducing-results.md)
+- FOUND: commit 2d112c0 (metadata/docs)
+
 ---
 *Phase: 08-mlops-and-research-skills-content*
 *Completed: 2026-03-23*
