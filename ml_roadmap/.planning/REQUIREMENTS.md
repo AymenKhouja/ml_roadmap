@@ -69,8 +69,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Core Content -- Research Skills
 
-- [ ] **RSCH-01**: Paper reading section covering how to efficiently read and critically evaluate ML research papers
-- [ ] **RSCH-02**: Reproducing results section covering how to implement papers, common pitfalls, and practical tips
+- [x] **RSCH-01**: Paper reading section covering how to efficiently read and critically evaluate ML research papers
+- [x] **RSCH-02**: Reproducing results section covering how to implement papers, common pitfalls, and practical tips
 - [ ] **RSCH-03**: Staying current section covering arXiv, conferences, key researchers, and community resources
 
 ### Interactivity
@@ -168,8 +168,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | MLOP-02 | Phase 8 | Complete |
 | MLOP-03 | Phase 8 | Complete |
 | MLOP-04 | Phase 8 | Complete |
-| RSCH-01 | Phase 8 | Pending |
-| RSCH-02 | Phase 8 | Pending |
+| RSCH-01 | Phase 8 | Complete |
+| RSCH-02 | Phase 8 | Complete |
 | RSCH-03 | Phase 8 | Pending |
 | INTR-01 | Phase 3 | Pending |
 | INTR-02 | Phase 3 | Pending |

@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: completed
-stopped_at: "Completed Phase 08-02: ML system design page and MLOps index upgrade"
-last_updated: "2026-03-23T12:39:38.588Z"
+stopped_at: "Completed Phase 08-03: Research skills pages -- reading-papers.md (RSCH-01) and reproducing-results.md (RSCH-02)"
+last_updated: "2026-03-23T13:09:06.783Z"
 last_activity: 2026-03-08 -- Completed all Deep Learning content (Neural Network Fundamentals, CNNs, RNNs, Transformers, Frameworks + index)
 progress:
   total_phases: 9
-  completed_phases: 8
-  total_plans: 21
-  completed_plans: 21
+  completed_phases: 7
+  total_plans: 23
+  completed_plans: 22
   percent: 78
 ---
 
@@ -66,6 +66,7 @@ Progress: [████████░░] 78%
 | Phase 07 P03 | 6min | 2 tasks | 2 files |
 | Phase 08 P01 | 8 | 2 tasks | 3 files |
 | Phase 08 P02 | 4 | 2 tasks | 2 files |
+| Phase 08 P03 | 10 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -111,6 +112,9 @@ Recent decisions affecting current work:
 - [Phase 08]: 3 Mermaid diagrams in system-design.md: full production pipeline (graph LR), training DAG (graph TD), online vs offline serving (graph LR with subgraphs)
 - [Phase 08]: LLMOps covered as note admonition in system-design.md (emerging pattern) -- no deep-dive, consistent with DL frameworks.md treatment
 - [Phase 08]: Feature store section uses 6-row decision table for when you need one -- avoids prescribing tools for simple cases
+- [Phase 08]: reading-papers.md includes paper tracking template code block and three-pass method comparison table as actionable tools within content
+- [Phase 08]: reproducing-results.md experience-level table maps beginner/intermediate/advanced/expert to appropriate starting papers to prevent over-ambitious first attempts
+- [Phase 08]: Both research skills pages name specific papers throughout (not generic advice) per RESEARCH.md pitfall 3 guidance
 
 ### Pending Todos
 
@@ -125,6 +129,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-23T12:39:33.367Z
-Stopped at: Completed Phase 08-02: ML system design page and MLOps index upgrade
+Last session: 2026-03-23T13:09:06.781Z
+Stopped at: Completed Phase 08-03: Research skills pages -- reading-papers.md (RSCH-01) and reproducing-results.md (RSCH-02)
 Resume file: None
