@@ -90,7 +90,6 @@ extra_css:
 nav:
   - Home:
     - index.md
-    - Features Demo: demo.md
   - Math Foundations:
     - math-foundations/index.md
     - Linear Algebra: math-foundations/linear-algebra.md
