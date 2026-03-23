@@ -19,7 +19,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [ ] **Phase 5: Python ML Ecosystem Content** - Complete Python ML toolkit section covering NumPy, Pandas, visualization, and Scikit-learn
 - [x] **Phase 6: Classical ML Content** - Complete classical ML section covering supervised, unsupervised, evaluation, and feature engineering
 - [x] **Phase 7: Deep Learning Content** - Complete deep learning section covering neural nets, CNNs, RNNs, Transformers, and frameworks (2026-03-08)
-- [x] **Phase 8: MLOps and Research Skills Content** - Complete MLOps section and research skills section covering production ML and paper literacy (completed 2026-03-23)
+- [ ] **Phase 8: MLOps and Research Skills Content** - Complete MLOps section and research skills section covering production ML and paper literacy
 - [ ] **Phase 9: Landing Page, Deployment, and Polish** - Landing page, visual roadmap overview, navigation polish, and live deployment to GitHub Pages
 
 ## Phase Details
@@ -147,11 +147,13 @@ Plans:
   3. Monitoring section covers data drift, model decay, and retraining strategies with observable indicators and decision frameworks
   4. ML system design section covers end-to-end architecture patterns with Mermaid diagrams showing production ML pipelines
   5. Research skills sections cover paper reading methodology, result reproduction workflow, and staying current via arXiv/conferences/community
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 08-01: TBD
-- [ ] 08-02: TBD
+- [x] 08-01-PLAN.md -- MLOps content pages: project lifecycle, model deployment, monitoring (MLOP-01, MLOP-02, MLOP-03)
+- [x] 08-02-PLAN.md -- ML system design page and MLOps index upgrade (MLOP-04)
+- [ ] 08-03-PLAN.md -- Research skills content pages: reading papers and reproducing results (RSCH-01, RSCH-02)
+- [ ] 08-04-PLAN.md -- Staying current page and research-skills index upgrade (RSCH-03)
 
 ### Phase 9: Landing Page, Deployment, and Polish
 **Goal**: A new visitor lands on the site, immediately understands what it is, who it is for, and how to navigate the learning path -- and the site is live on GitHub Pages
@@ -183,5 +185,5 @@ Note: Phases 4-8 (content phases) can be executed in parallel once Phases 2 and 
 | 5. Python ML Ecosystem Content | 0/3 | Not started | - |
 | 6. Classical ML Content | 3/3 | Complete | 2026-03-08 |
 | 7. Deep Learning Content | 3/3 | Complete | 2026-03-08 |
-| 8. MLOps and Research Skills Content | 2/2 | Complete   | 2026-03-23 |
+| 8. MLOps and Research Skills Content | 2/4 | In progress | - |
 | 9. Landing Page, Deployment, and Polish | 0/0 | Not started | - |
