@@ -65,7 +65,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **MLOP-01**: ML project lifecycle section covering experiment tracking, reproducibility, and versioning
 - [x] **MLOP-02**: Model deployment section covering serving, APIs, containerization, and cloud platforms
 - [x] **MLOP-03**: Monitoring and maintenance section covering data drift, model decay, and retraining strategies
-- [ ] **MLOP-04**: ML system design section covering end-to-end architecture patterns for production ML
+- [x] **MLOP-04**: ML system design section covering end-to-end architecture patterns for production ML
 
 ### Core Content -- Research Skills
 
@@ -167,7 +167,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | MLOP-01 | Phase 8 | Complete |
 | MLOP-02 | Phase 8 | Complete |
 | MLOP-03 | Phase 8 | Complete |
-| MLOP-04 | Phase 8 | Pending |
+| MLOP-04 | Phase 8 | Complete |
 | RSCH-01 | Phase 8 | Pending |
 | RSCH-02 | Phase 8 | Pending |
 | RSCH-03 | Phase 8 | Pending |

@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: completed
-stopped_at: "Completed Phase 08-01: MLOps content (project-lifecycle.md, model-deployment.md, monitoring-maintenance.md)"
-last_updated: "2026-03-23T12:33:13.392Z"
+stopped_at: "Completed Phase 08-02: ML system design page and MLOps index upgrade"
+last_updated: "2026-03-23T12:39:38.588Z"
 last_activity: 2026-03-08 -- Completed all Deep Learning content (Neural Network Fundamentals, CNNs, RNNs, Transformers, Frameworks + index)
 progress:
   total_phases: 9
-  completed_phases: 7
+  completed_phases: 8
   total_plans: 21
-  completed_plans: 20
+  completed_plans: 21
   percent: 78
 ---
 
@@ -65,6 +65,7 @@ Progress: [████████░░] 78%
 | Phase 07 P02 | 8min | 2 tasks | 2 files |
 | Phase 07 P03 | 6min | 2 tasks | 2 files |
 | Phase 08 P01 | 8 | 2 tasks | 3 files |
+| Phase 08 P02 | 4 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -107,6 +108,9 @@ Recent decisions affecting current work:
 - [Phase 08-01]: MLOps pages teach concepts first with tool recommendations second; all code examples are locally runnable (MLflow, FastAPI+uvicorn, Docker, scipy KS test)
 - [Phase 08-01]: Cloud deployment covered at awareness level only -- no platform tutorials, concepts and tradeoffs only
 - [Phase 08-01]: No content tabs for MLOps tools (unlike frameworks.md); recommend MLflow as primary, W&B as alternative inline
+- [Phase 08]: 3 Mermaid diagrams in system-design.md: full production pipeline (graph LR), training DAG (graph TD), online vs offline serving (graph LR with subgraphs)
+- [Phase 08]: LLMOps covered as note admonition in system-design.md (emerging pattern) -- no deep-dive, consistent with DL frameworks.md treatment
+- [Phase 08]: Feature store section uses 6-row decision table for when you need one -- avoids prescribing tools for simple cases
 
 ### Pending Todos
 
@@ -121,6 +125,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-23T12:33:13.390Z
-Stopped at: Completed Phase 08-01: MLOps content (project-lifecycle.md, model-deployment.md, monitoring-maintenance.md)
+Last session: 2026-03-23T12:39:33.367Z
+Stopped at: Completed Phase 08-02: ML system design page and MLOps index upgrade
 Resume file: None
